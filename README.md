@@ -94,6 +94,25 @@ In server side, Rest API has been written. Also, in that API, layered architectu
             }
 
 
+### Add nonlexical word  [POST] [/nonlexical]
+
+
++ Request (application/json)
+        
+            {
+                "text" : "there"
+            }
+
++ Response 200 (application/json)
+        
+            {
+                "data": {
+                    "text": "there",
+                    "_id": "5c0d4fa944315b0baeddf859"
+                }
+            }
+
+
 ## Error Messages
 
 + Response 400 (application/json)
