@@ -1,0 +1,14 @@
+{
+    "test": {
+        "PORT": 5500,
+        "MONGODB_URI": "mongodb://localhost:27017/LexicalDensityAppTest",
+        "NONLEXICALWORDS": ["to","got","is", "and", "although","or", "when", "while", "a", "either", "more", "much", "neither", "my", "that", "the", "as", "no", "nor", "not", "at", "between", "in", "of", "without", "I", "you", "he", "she", "it", "we", "they", "anybody", "one"]
+    },
+    "development": {
+        "PORT": 5400,
+        "MONGODB_URI": "mongodb://localhost:27017/LexicalDensityApp",
+        "NONLEXICALWORDS": ["to","got","is", "and", "although","or", "when", "while", "a", "either", "more", "much", "neither", "my", "that", "the", "as", "no", "nor", "not", "at", "between", "in", "of", "without", "I", "you", "he", "she", "it", "we", "they", "anybody", "one"]
+    }
+}
+
+
